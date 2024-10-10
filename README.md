@@ -87,7 +87,7 @@ RISC-V is suited for a variety of applications, including:
 
 4. **Instruction Decoder**:  
    Decodes instructions to determine the operation and operands involved.
-   ![[Screenshot 2024-10-10 125407.png]]
+   ![Diagram-1.png](https://github.com/marawan206/RISC-V-16-bit-processor/blob/main/Diagram-1.png)
 
 5. **Control Unit**:  
    Manages instruction execution by coordinating processor components.
@@ -100,8 +100,7 @@ RISC-V is suited for a variety of applications, including:
 
 8. **I/O Ports**:  
    Interfaces for external devices such as sensors and communication modules.
-   
-![[Screenshot 2024-10-10 125356.png]]
+   ![Diagram-2.png](https://github.com/marawan206/RISC-V-16-bit-processor/blob/main/Diagram-2.png)
 
 9. **Timers/Counters**:  
    Provide timing functions for control and scheduling tasks.
@@ -119,11 +118,12 @@ RISC-V is suited for a variety of applications, including:
 
 ## RISC-V Architecture
 
-![[Screenshot 2024-10-10 125424.png]]
+![Diagram-3.png](https://github.com/marawan206/RISC-V-16-bit-processor/blob/main/Diagram-3.png)
+
 ---
 ## Datapath of RISC-V Architecture
 
-![[Screenshot 2024-10-10 125435.png]]
+![Diagram-4.png](https://github.com/marawan206/RISC-V-16-bit-processor/blob/main/Diagram-4.png)
 
 ---
 
@@ -154,23 +154,29 @@ The simulation was carried out using XILINIX VIVADO, showcasing the functionalit
 ## Waveform Outputs
 
 - **Load Instruction Implementation**  
-Load Instruction Waveform Image![[Screenshot 2024-10-10 125749.png]]**_
+  ![Result-1.png](https://github.com/marawan206/RISC-V-16-bit-processor/blob/main/Result-1.png)
+
 
 - **Load Immediate Instruction**  
-  Load Immediate Instruction Waveform Image![[2.png]]**_
+  ![Result-2.png](https://github.com/marawan206/RISC-V-16-bit-processor/blob/main/Result-2.png)
+
 
 - **Add Instruction**  
-  Instruction Waveform Image![[3.png]]**_
+  ![Result-3.png](https://github.com/marawan206/RISC-V-16-bit-processor/blob/main/Result-3.png)
+
 
 - **Jump Instruction**  
-   JMP Instruction Waveform Image![[4.png]]**_
+   ![Result-4.png](https://github.com/marawan206/RISC-V-16-bit-processor/blob/main/Result-4.png)
+
 
 - **Store Instruction**  
-  Store Instruction Waveform Image![[5.png]]**_
+  ![Result-5.png](https://github.com/marawan206/RISC-V-16-bit-processor/blob/main/Result-5.png)
+
 
 - **Load Instruction**  
-  Load Instruction Waveform Image![[6.png]]**_
+  ![Result-6.png](https://github.com/marawan206/RISC-V-16-bit-processor/blob/main/Result-6.png)
 
+  
 ---
 
 ## Conclusion
