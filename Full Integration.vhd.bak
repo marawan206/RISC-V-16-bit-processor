@@ -1,0 +1,132 @@
+architecture Behavioral of RISC_V_Processor is
+    component Instruction_ROM
+        Port ( address : in  STD_LOGIC_VECTOR(31 downto 0);
+               data_out : out  STD_LOGIC_VECTOR(31 downto 0));
+    end component;
+
+    component Data_RAM
+        Port ( address : in  STD_LOGIC_VECTOR(31 downto 0);
+               data_in : in  STD_LOGIC_VECTOR(31 downto 0);
+               data_out : out  STD_LOGIC_VECTOR(31 downto 0);
+               mem_write : in  STD_LOGIC;
+               mem_read : in  STD_LOGIC);
+    end component;
+
+    component ControlUnit
+        Port ( opcode : in  STD_LOGIC_VECTOR(6 downto 0);
+               control_signals : out  STD_LOGIC_VECTOR(9 downto 0));
+    end component;
+
+    component BranchPredictor
+        Port ( clk : in  STD_LOGIC;
+               reset : in  STD_LOGIC;
+               branch_taken : in  STD_LOGIC;
+               branch_predict : out  STD_LOGIC;
+               branch_address : out  STD_LOGIC_VECTOR(31 downto 0);
+               PC : in  STD_LOGIC_VECTOR(31 downto 0);
+               target_address : in  STD_LOGIC_VECTOR(31 downto 0));
+    end component;
+
+    component ExceptionHandler
+        Port ( clk : in  STD_LOGIC;
+               reset : in  STD_LOGIC;
+               exception : out  STD_LOGIC;
+               exception_addr : out  STD_LOGIC_VECTOR(31 downto 0);
+               PC : in  STD_LOGIC_VECTOR(31 downto 0);
+               exception_signal : in  STD_LOGIC);
+    end component;
+
+    signal PC : STD_LOGIC_VECTOR(31 downto 0) := (others => '0');
+    signal instruction : STD_LOGIC_VECTOR(31 downto 0);
+    signal control_signals : STD_LOGIC_VECTOR(9 downto 0);
+    signal branch_predict : STD_LOGIC;
+    signal branch_taken : STD_LOGIC;
+    signal branch_address : STD_LOGIC_VECTOR(31 downto 0);
+    signal exception_signal : STD_LOGIC;
+    signal exception : STD_LOGIC;
+    signal exception_addr : STD_LOGIC_VECTOR(31 downto 0);
+
+begin
+
+    -- Fetch Stage
+    Fetch: process(clk, reset)
+    begin
+        if reset = '1' then
+            PC <= (others => '0');
+        elsif rising_edge(clk) then
+            if debug_step = '1' then
+                -- Hold the PC in debug mode
+                PC <= PC;
+            else
+                if branch_predict = '1' then
+                    PC <= branch_address;
+                else
+                    PC <= PC + 4;
+                end if;
+            end if;
+        end if;
+    end process Fetch;
+
+    -- Instruction Memory
+    InstructionMemory: entity work.Instruction_ROM
+        port map (
+            address => PC,
+            data_out => instruction
+        );
+
+    -- Control Unit
+    Control: entity work.ControlUnit
+        port map (
+            opcode => instruction(6 downto 0),
+            control_signals => control_signals
+        );
+
+    -- Branch Predictor
+    Predictor: entity work.BranchPredictor
+        port map (
+            clk => clk,
+            reset => reset,
+            branch_taken => branch_taken,
+            branch_predict => branch_predict,
+            branch_address => branch_address,
+            PC => PC,
+            target_address => /* target address from decode stage */
+        );
+
+    -- Exception Handler
+    Exception: entity work.ExceptionHandler
+        port map (
+            clk => clk,
+            reset => reset,
+            exception => exception,
+            exception_addr => exception_addr,
+            PC => PC,
+            exception_signal => exception_signal
+        );
+
+    -- Fetch-Decode Pipeline Register
+    IF_ID_Reg <= PC & instruction;
+
+    -- Decode Stage
+    -- ...
+
+    -- Decode-Execute Pipeline Register
+    -- ...
+
+    -- Execute Stage
+    -- ...
+
+    -- Execute-Memory Pipeline Register
+    -- ...
+
+    -- Memory Stage
+    -- ...
+
+    -- Memory-Write Back Pipeline Register
+    -- ...
+
+    -- Write Back Stage
+    -- ...
+
+end Behavioral;
+

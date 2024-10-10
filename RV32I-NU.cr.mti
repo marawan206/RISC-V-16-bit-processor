@@ -1,0 +1,116 @@
+{C:/Users/maraw/Desktop/RISC-V Project/ControlUnit.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/maraw/Desktop/RISC-V Project/ControlUnit.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity ControlUnit
+-- Compiling architecture Behavioral of ControlUnit
+
+} {} {}} {C:/Users/maraw/Desktop/RISC-V Project/ExceptionHandler.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/maraw/Desktop/RISC-V Project/ExceptionHandler.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity ExceptionHandler
+-- Compiling architecture Behavioral of ExceptionHandler
+
+} {} {}} {C:/Users/maraw/Desktop/RISC-V Project/RISC_V_Processor.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/maraw/Desktop/RISC-V Project/RISC_V_Processor.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity RISC_V_Processor
+-- Compiling architecture Behavioral of RISC_V_Processor
+
+} {} {}} {C:/Users/maraw/Desktop/RISC-V Project/Data_RAM.vhd} {0 {vcom -work work -2002 -explicit -stats=none {C:/Users/maraw/Desktop/RISC-V Project/Data_RAM.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity Data_RAM
+-- Compiling architecture Behavioral of Data_RAM
+** Error: C:/Users/maraw/Desktop/RISC-V Project/Data_RAM.vhd(18): (vcom-1360) Array type of "ram" does not have an index constraint.
+** Error: C:/Users/maraw/Desktop/RISC-V Project/Data_RAM.vhd(18): (vcom-1076) OTHERS choice cannot be used in unconstrained array aggregate.
+** Error: C:/Users/maraw/Desktop/RISC-V Project/Data_RAM.vhd(25): near "if": syntax error
+** Error: C:/Users/maraw/Desktop/RISC-V Project/Data_RAM.vhd(41): VHDL Compiler exiting
+
+} {10.0 14.0} {}} {C:/Users/maraw/Desktop/RISC-V Project/BranchPredictor.vhd} {0 {vcom -work work -2002 -explicit -stats=none {C:/Users/maraw/Desktop/RISC-V Project/BranchPredictor.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity BranchPredictor
+-- Compiling architecture Behavioral of BranchPredictor
+** Error: C:/Users/maraw/Desktop/RISC-V Project/BranchPredictor.vhd(17): near "array": (vcom-1576) expecting STRING or IDENTIFIER or << or '('.
+** Error: C:/Users/maraw/Desktop/RISC-V Project/BranchPredictor.vhd(23): Illegal target for signal assignment.
+** Error: C:/Users/maraw/Desktop/RISC-V Project/BranchPredictor.vhd(23): (vcom-1136) Unknown identifier "prediction_table".
+** Error: C:/Users/maraw/Desktop/RISC-V Project/BranchPredictor.vhd(29): Illegal target for signal assignment.
+** Error: C:/Users/maraw/Desktop/RISC-V Project/BranchPredictor.vhd(29): (vcom-1136) Unknown identifier "prediction_table".
+** Error: C:/Users/maraw/Desktop/RISC-V Project/BranchPredictor.vhd(33): (vcom-1136) Unknown identifier "prediction_table".
+** Error: C:/Users/maraw/Desktop/RISC-V Project/BranchPredictor.vhd(34): Cannot read output "branch_predict".
+	VHDL 2008 allows reading outputs.
+	This facility is enabled by compiling with -2008.
+** Error: C:/Users/maraw/Desktop/RISC-V Project/BranchPredictor.vhd(37): (vcom-1581) No feasible entries for infix operator '+'.
+** Error: C:/Users/maraw/Desktop/RISC-V Project/BranchPredictor.vhd(37): Type error resolving infix expression "+" as type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+** Error: C:/Users/maraw/Desktop/RISC-V Project/BranchPredictor.vhd(42): VHDL Compiler exiting
+
+} {8.0 15.0 17.0 20.0} {}} {C:/Users/maraw/Desktop/RISC-V Project/Top-Level Design.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/maraw/Desktop/RISC-V Project/Top-Level Design.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity RISC_V_Processor
+-- Compiling architecture Behavioral of RISC_V_Processor
+-- Loading entity Instruction_ROM
+-- Loading entity ControlUnit
+-- Loading entity BranchPredictor
+-- Loading entity ExceptionHandler
+
+} {} {}} {C:/Users/maraw/Desktop/RISC-V Project/Instruction_ROM.vhd} {0 {vcom -work work -2002 -explicit -stats=none {C:/Users/maraw/Desktop/RISC-V Project/Instruction_ROM.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity Instruction_ROM
+-- Compiling architecture Behavioral of Instruction_ROM
+** Error: C:/Users/maraw/Desktop/RISC-V Project/Instruction_ROM.vhd(25): (vcom-1136) Unknown identifier "to_integer".
+** Error: C:/Users/maraw/Desktop/RISC-V Project/Instruction_ROM.vhd(18): (vcom-1192) Array length is 128; aggregate length is 2.
+** Error: C:/Users/maraw/Desktop/RISC-V Project/Instruction_ROM.vhd(27): VHDL Compiler exiting
+
+} {10.0 13.0} {}} {C:/Users/maraw/Desktop/RISC-V Project/Full Integration.vhd} {0 {vcom -work work -2002 -explicit -stats=none {C:/Users/maraw/Desktop/RISC-V Project/Full Integration.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+** Error: C:/Users/maraw/Desktop/RISC-V Project/Full Integration.vhd(1): near "Certainly": syntax error
+
+} {4.0 5.0} {}} {C:/Users/maraw/Desktop/RISC-V Project/Branch Prediction.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/maraw/Desktop/RISC-V Project/Branch Prediction.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity BranchPredictor
+-- Compiling architecture Behavioral of BranchPredictor
+
+} {} {}} {C:/Users/maraw/Desktop/RISC-V Project/Exception Handling.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/maraw/Desktop/RISC-V Project/Exception Handling.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity ExceptionHandler
+-- Compiling architecture Behavioral of ExceptionHandler
+
+} {} {}} {C:/Users/maraw/Desktop/RISC-V Project/Instruction Fetch.vhd} {0 {vcom -work work -2002 -explicit -stats=none {C:/Users/maraw/Desktop/RISC-V Project/Instruction Fetch.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+** Error: C:/Users/maraw/Desktop/RISC-V Project/Instruction Fetch.vhd(2): near "Fetch": syntax error
+
+} {4.0 5.0} {}}

@@ -1,0 +1,110 @@
+{C:/Users/maraw/Downloads/Codes VHDL/updated R--I--JMP--BEQ.v} {1 {vlog -work work -stats=none {C:/Users/maraw/Downloads/Codes VHDL/updated R--I--JMP--BEQ.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module ALU
+-- Compiling module instruction
+-- Compiling module Register
+-- Compiling module RAM
+-- Compiling module PC
+-- Compiling module Mux1
+-- Compiling module Mux2
+-- Compiling module Mux3
+-- Compiling module sign
+-- Compiling module lat
+-- Compiling module datapath
+-- Compiling module control
+-- Compiling module risc
+
+Top level modules:
+	risc
+
+} {} {}} {C:/Users/maraw/Downloads/Codes VHDL/Datapath.v} {1 {vlog -work work -stats=none {C:/Users/maraw/Downloads/Codes VHDL/Datapath.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module datapath
+
+Top level modules:
+	datapath
+
+} {} {}} {C:/Users/maraw/Downloads/Codes VHDL/Program Counter.v} {1 {vlog -work work -stats=none {C:/Users/maraw/Downloads/Codes VHDL/Program Counter.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module PC
+
+Top level modules:
+	PC
+
+} {} {}} {C:/Users/maraw/Downloads/Codes VHDL/Patch_1.0.0.v} {1 {vlog -work work -stats=none {C:/Users/maraw/Downloads/Codes VHDL/Patch_1.0.0.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module ALU
+-- Compiling module instruction
+-- Compiling module Register
+-- Compiling module RAM
+-- Compiling module PC
+-- Compiling module Mux1
+-- Compiling module Mux2
+-- Compiling module Mux3
+-- Compiling module sign
+-- Compiling module lat
+-- Compiling module datapath
+-- Compiling module control
+-- Compiling module risc
+
+Top level modules:
+	risc
+
+} {} {}} {C:/Users/maraw/Downloads/Codes VHDL/HellFixture.v} {1 {vlog -work work -stats=none {C:/Users/maraw/Downloads/Codes VHDL/HellFixture.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module HellFixture
+
+Top level modules:
+	HellFixture
+
+} {} {}} {C:/Users/maraw/Downloads/Codes VHDL/SignExtend.v} {1 {vlog -work work -stats=none {C:/Users/maraw/Downloads/Codes VHDL/SignExtend.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module sign
+
+Top level modules:
+	sign
+
+} {} {}} {C:/Users/maraw/Downloads/Codes VHDL/RegisterFile.v} {1 {vlog -work work -stats=none {C:/Users/maraw/Downloads/Codes VHDL/RegisterFile.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Register
+-- Compiling module RAM
+-- Compiling module PC
+
+Top level modules:
+	Register
+	RAM
+	PC
+
+} {} {}} {C:/Users/maraw/Downloads/Codes VHDL/ControlUnit.v} {1 {vlog -work work -stats=none {C:/Users/maraw/Downloads/Codes VHDL/ControlUnit.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module control
+
+Top level modules:
+	control
+
+} {} {}} {C:/Users/maraw/Downloads/Codes VHDL/Risc Top Module.v} {1 {vlog -work work -stats=none {C:/Users/maraw/Downloads/Codes VHDL/Risc Top Module.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module risc
+
+Top level modules:
+	risc
+
+} {} {}} {C:/Users/maraw/Downloads/Codes VHDL/Multiplexers.v} {1 {vlog -work work -stats=none {C:/Users/maraw/Downloads/Codes VHDL/Multiplexers.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Mux1
+-- Compiling module Mux2
+-- Compiling module Mux3
+
+Top level modules:
+	Mux1
+	Mux2
+	Mux3
+
+} {} {}} {C:/Users/maraw/Downloads/Codes VHDL/ALU.v.v} {1 {vlog -work work -stats=none {C:/Users/maraw/Downloads/Codes VHDL/ALU.v.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}}

@@ -1,0 +1,526 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/18.1
+vALU
+!s110 1716578505
+!i10b 1
+!s100 WY5im9:]iB7oC8;anfoFf3
+Ib=IBIVhSLmmVTF5Mz1KzE0
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+Z1 dC:/Users/maraw/Desktop/RISC-V Project
+w1716578503
+8C:/Users/maraw/Downloads/Codes VHDL/ALU.v.v
+FC:/Users/maraw/Downloads/Codes VHDL/ALU.v.v
+L0 1
+Z2 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1716578505.000000
+!s107 C:/Users/maraw/Downloads/Codes VHDL/ALU.v.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/maraw/Downloads/Codes VHDL/ALU.v.v|
+!i113 1
+Z3 o-work work
+Z4 tCvgOpt 0
+n@a@l@u
+Ebranchpredictor
+Z5 w1715707705
+Z6 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z7 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R1
+8C:/Users/maraw/Desktop/RISC-V Project/BranchPredictor.vhd
+FC:/Users/maraw/Desktop/RISC-V Project/BranchPredictor.vhd
+l0
+L4
+V]`GWL?[UMgY22JJ^m:Zb31
+!s100 `bFPaXahEa8DzGW^L`OWY2
+Z8 OV;C;10.5b;63
+32
+!s110 1716565473
+!i10b 1
+!s108 1716565473.000000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/maraw/Desktop/RISC-V Project/BranchPredictor.vhd|
+!s107 C:/Users/maraw/Desktop/RISC-V Project/BranchPredictor.vhd|
+!i113 1
+Z9 o-work work -2002 -explicit
+Z10 tExplicit 1 CvgOpt 0
+Abehavioral
+Z11 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z12 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+R6
+R7
+Z13 DEx4 work 15 branchpredictor 0 22 D63loA5]gJ01blW9;UX6:1
+l18
+L16
+VJlQX8CTaj@zYXn`]aO?_m1
+!s100 :<>07jh0KgINGoC2OnBPN2
+R8
+32
+Z14 !s110 1715679986
+!i10b 1
+Z15 !s108 1715679986.000000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/maraw/Desktop/RISC-V Project/Branch Prediction.vhd|
+!s107 C:/Users/maraw/Desktop/RISC-V Project/Branch Prediction.vhd|
+!i113 1
+R9
+R10
+FC:/Users/maraw/Desktop/RISC-V Project/Branch Prediction.vhd
+8C:/Users/maraw/Desktop/RISC-V Project/Branch Prediction.vhd
+vcontrol
+Z16 !s110 1716578131
+!i10b 1
+!s100 NL[kf]5UG:XC0]QMJYLiF3
+IHW`oiofRKL7b_E55_Cm:]2
+R0
+R1
+Z17 w1716557305
+Z18 8C:/Users/maraw/Downloads/Codes VHDL/updated R--I--JMP--BEQ.v
+Z19 FC:/Users/maraw/Downloads/Codes VHDL/updated R--I--JMP--BEQ.v
+L0 299
+R2
+r1
+!s85 0
+31
+Z20 !s108 1716578131.000000
+Z21 !s107 C:/Users/maraw/Downloads/Codes VHDL/updated R--I--JMP--BEQ.v|
+Z22 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/maraw/Downloads/Codes VHDL/updated R--I--JMP--BEQ.v|
+!i113 1
+R3
+R4
+Econtrolunit
+Z23 w1715679975
+R6
+R7
+R1
+Z24 8C:/Users/maraw/Desktop/RISC-V Project/ControlUnit.vhd
+Z25 FC:/Users/maraw/Desktop/RISC-V Project/ControlUnit.vhd
+l0
+L4
+VCcI6nnH>_oJDg;8heQ4_z2
+!s100 LAz`eFH2^zEhMDR]ECAIK0
+R8
+32
+R14
+!i10b 1
+R15
+Z26 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/maraw/Desktop/RISC-V Project/ControlUnit.vhd|
+Z27 !s107 C:/Users/maraw/Desktop/RISC-V Project/ControlUnit.vhd|
+!i113 1
+R9
+R10
+Abehavioral
+R6
+R7
+Z28 DEx4 work 11 controlunit 0 22 CcI6nnH>_oJDg;8heQ4_z2
+l12
+L11
+VMGQeomT0L5>Gjl9PMCd`@2
+!s100 X?fRn@H;M:ThX3enSceUR2
+R8
+32
+R14
+!i10b 1
+R15
+R26
+R27
+!i113 1
+R9
+R10
+Edata_ram
+w1715680274
+R11
+R12
+R6
+R7
+R1
+8C:/Users/maraw/Desktop/RISC-V Project/Data_RAM.vhd
+FC:/Users/maraw/Desktop/RISC-V Project/Data_RAM.vhd
+l0
+L6
+VdB:4[1Qgb`@7E2l3cPcbZ2
+!s100 ?W_X8XnHJm?K^mM>H=];c0
+R8
+32
+!s110 1716066421
+!i10b 1
+!s108 1716066421.000000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/maraw/Desktop/RISC-V Project/Data_RAM.vhd|
+!s107 C:/Users/maraw/Desktop/RISC-V Project/Data_RAM.vhd|
+!i113 1
+R9
+R10
+vdatapath
+R16
+!i10b 1
+!s100 ^i]hlP295B<_`^RNd9a]]2
+I92JIVLh<meM3YGLY]H;[82
+R0
+R1
+R17
+R18
+R19
+L0 258
+R2
+r1
+!s85 0
+31
+R20
+R21
+R22
+!i113 1
+R3
+R4
+Eexceptionhandler
+Z29 w1715679956
+R6
+R7
+R1
+Z30 8C:/Users/maraw/Desktop/RISC-V Project/ExceptionHandler.vhd
+Z31 FC:/Users/maraw/Desktop/RISC-V Project/ExceptionHandler.vhd
+l0
+L4
+VW=;SZ];V`jlzQYiF`[oAR1
+!s100 I=M2c4Oed@lN1Mk9kmcSg1
+R8
+32
+Z32 !s110 1716470172
+!i10b 1
+Z33 !s108 1716470171.000000
+Z34 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/maraw/Desktop/RISC-V Project/ExceptionHandler.vhd|
+Z35 !s107 C:/Users/maraw/Desktop/RISC-V Project/ExceptionHandler.vhd|
+!i113 1
+R9
+R10
+Abehavioral
+R6
+R7
+Z36 DEx4 work 16 exceptionhandler 0 22 W=;SZ];V`jlzQYiF`[oAR1
+l16
+L15
+VlA;Wo8Y_aA09XS;M?HCHE1
+!s100 _NQ=`GdoH:8aTA6TIC@<X1
+R8
+32
+R32
+!i10b 1
+R33
+R34
+R35
+!i113 1
+R9
+R10
+vHellFixture
+!s110 1716578544
+!i10b 1
+!s100 BGeUh4YVMDUgD5c?Ql;o>0
+IRDmUOo4HLc8cWHX?BE=G82
+R0
+R1
+w1716578536
+8C:/Users/maraw/Downloads/Codes VHDL/HellFixture.v
+FC:/Users/maraw/Downloads/Codes VHDL/HellFixture.v
+L0 3
+R2
+r1
+!s85 0
+31
+!s108 1716578544.000000
+!s107 C:/Users/maraw/Downloads/Codes VHDL/HellFixture.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/maraw/Downloads/Codes VHDL/HellFixture.v|
+!i113 1
+R3
+R4
+n@hell@fixture
+vinstruction
+R16
+!i10b 1
+!s100 DHkDlNjjbG5W1PFL5RaDe3
+I5CBZ@C<0lU:>fQG7:5I4`3
+R0
+R1
+R17
+R18
+R19
+L0 97
+R2
+r1
+!s85 0
+31
+R20
+R21
+R22
+!i113 1
+R3
+R4
+Einstruction_rom
+w1715679819
+R11
+R12
+R6
+R7
+R1
+8C:/Users/maraw/Desktop/RISC-V Project/Instruction_ROM.vhd
+FC:/Users/maraw/Desktop/RISC-V Project/Instruction_ROM.vhd
+l0
+L6
+V<kY7zh1CJf9zYI2Qz3D[<2
+!s100 PJ_G8[<HkMJn8=zWiPP[f3
+R8
+32
+!s110 1716565477
+!i10b 1
+!s108 1716565477.000000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/maraw/Desktop/RISC-V Project/Instruction_ROM.vhd|
+!s107 C:/Users/maraw/Desktop/RISC-V Project/Instruction_ROM.vhd|
+!i113 1
+R9
+R10
+vlat
+R16
+!i10b 1
+!s100 WgE7RRW3;R=?QQzF0^k1g1
+I:`4BLceWW4OF;Xh6N^zRn2
+R0
+R1
+R17
+R18
+R19
+L0 248
+R2
+r1
+!s85 0
+31
+R20
+R21
+R22
+!i113 1
+R3
+R4
+vMux1
+R16
+!i10b 1
+!s100 5R0bVT11jkk<Ql;4G<E9Y0
+IOAPhX:jI0IAN83U8QOjV]3
+R0
+R1
+R17
+R18
+R19
+L0 200
+R2
+r1
+!s85 0
+31
+R20
+R21
+R22
+!i113 1
+R3
+R4
+n@mux1
+vMux2
+R16
+!i10b 1
+!s100 dCGmWbJjM<o]b5=?Yc0cN0
+IGL2YF?DC<cCaFhPZ]kg9l2
+R0
+R1
+R17
+R18
+R19
+L0 212
+R2
+r1
+!s85 0
+31
+R20
+R21
+R22
+!i113 1
+R3
+R4
+n@mux2
+vMux3
+R16
+!i10b 1
+!s100 08B@DQ48OjXXCn^KVeW<22
+IobVL8EohUUk_I;9Smb3Bo0
+R0
+R1
+R17
+R18
+R19
+L0 226
+R2
+r1
+!s85 0
+31
+R20
+R21
+R22
+!i113 1
+R3
+R4
+n@mux3
+vPC
+R16
+!i10b 1
+!s100 Q]AT2RP7COa2MWN?O1]JL2
+IZb5IAWQf[gW>d<gk=Tn622
+R0
+R1
+R17
+R18
+R19
+L0 183
+R2
+r1
+!s85 0
+31
+R20
+R21
+R22
+!i113 1
+R3
+R4
+n@p@c
+vRAM
+R16
+!i10b 1
+!s100 dY:de;KI>7RKzc]6AFdM^1
+I:Wi3P^iIJ5BDH?40WLb^33
+R0
+R1
+R17
+R18
+R19
+L0 160
+R2
+r1
+!s85 0
+31
+R20
+R21
+R22
+!i113 1
+R3
+R4
+n@r@a@m
+vRegister
+R16
+!i10b 1
+!s100 ONi70R64NhTP6`[nY^o0W0
+I:PSo1VfA>JFBRjD6m=mGg3
+R0
+R1
+R17
+R18
+R19
+L0 135
+R2
+r1
+!s85 0
+31
+R20
+R21
+R22
+!i113 1
+R3
+R4
+n@register
+vrisc
+R16
+!i10b 1
+!s100 nm9EE6cBabU4T3YS<j0CV0
+IGX>>]7Ze;A;PlgOm5d9nV0
+R0
+R1
+R17
+R18
+R19
+L0 604
+R2
+r1
+!s85 0
+31
+R20
+R21
+R22
+!i113 1
+R3
+R4
+Erisc_v_processor
+Z37 w1716062321
+R11
+R12
+R6
+R7
+R1
+Z38 8C:/Users/maraw/Desktop/RISC-V Project/Top-Level Design.vhd
+Z39 FC:/Users/maraw/Desktop/RISC-V Project/Top-Level Design.vhd
+l0
+L6
+V0R4XXLG4c6FVK0<GLkDFQ2
+!s100 nU2S`SGA^lKA3[[:kMW@N3
+R8
+32
+Z40 !s110 1716062323
+!i10b 1
+Z41 !s108 1716062323.000000
+Z42 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/maraw/Desktop/RISC-V Project/Top-Level Design.vhd|
+Z43 !s107 C:/Users/maraw/Desktop/RISC-V Project/Top-Level Design.vhd|
+!i113 1
+R9
+R10
+Abehavioral
+R36
+R13
+R28
+DEx4 work 15 instruction_rom 0 22 <kY7zh1CJf9zYI2Qz3D[<2
+R11
+R12
+R6
+R7
+DEx4 work 16 risc_v_processor 0 22 0R4XXLG4c6FVK0<GLkDFQ2
+l96
+L20
+VW?4ieff0k=@f9:N7]I;1o0
+!s100 TcM;lE6VVCl0AW9IHUXYD3
+R8
+32
+R40
+!i10b 1
+R41
+R42
+R43
+!i113 1
+R9
+R10
+vsign
+R16
+!i10b 1
+!s100 nSIkQX^cHlN9fi3MQNUkG3
+IB6nKc@YYS4n00nfdLI:1f2
+R0
+R1
+R17
+R18
+R19
+L0 238
+R2
+r1
+!s85 0
+31
+R20
+R21
+R22
+!i113 1
+R3
+R4

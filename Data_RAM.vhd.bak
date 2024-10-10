@@ -1,0 +1,40 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.STD_LOGIC_ARITH.ALL;
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
+
+entity Data_RAM is
+    Port (
+        address : in  STD_LOGIC_VECTOR(31 downto 0);
+        data_in : in  STD_LOGIC_VECTOR(31 downto 0);
+        data_out : out  STD_LOGIC_VECTOR(31 downto 0);
+        mem_write : in  STD_LOGIC;
+        mem_read : in  STD_LOGIC
+    );
+end Data_RAM;
+
+architecture Behavioral of Data_RAM is
+    type ram_array is array (0 to 63) of STD_LOGIC_VECTOR(31 downto 0); -- Define your RAM size here
+    signal ram : ram_array := (others => (others => '0')); -- Initialize RAM with zeros
+
+    -- Custom function to convert binary vector to integer
+    function conv_integer(input_vector : STD_LOGIC_VECTOR) return integer is
+        variable result : integer := 0;
+    begin
+        result := to_integer(unsigned(input_vector));
+        return result;
+    end conv_integer;
+begin
+    process(address, data_in, mem_write, mem_read)
+        variable addr_int : integer;
+    begin
+        addr_int := conv_integer(address); -- Convert address to integer
+
+        if mem_write = '1' then
+            ram(addr_int) <= data_in; -- Write data to RAM
+        elsif mem_read = '1' then
+            data_out <= ram(addr_int); -- Read data from RAM
+        end if;
+    end process;
+end Behavioral;
+
